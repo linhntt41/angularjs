@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app=tenapp>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style>body { font-size: 1.5em; }</style>
+    <title>Lecture 02 - Single Page Web Applications with AngularJS</title>
+  </head>
+  <body>
+    <h1>Low Cohesion and Tight Coupling</h1>
+    <div ng-controller="tencontroller">
+        Your name <input type="text" ng-model="name"><br>
+        Total Numeric valude of persion name is: {{name}}
+    </div>
+  </body>
+</html>
